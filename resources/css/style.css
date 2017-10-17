@@ -37,17 +37,56 @@ header h3 {
 .square {
   background-color: black;
   height: 10rem;
-  width: 20rem;
+  width: 25rem;
   position: relative;
-  top: 9rem;
+  top: 8rem;
 }
 
 .square h3 {
   font-size: 1rem;
   font-weight: bold;
+  padding-left: 3rem;
+  padding-top: 2.25rem;
 }
 
 .square h1 {
   font-size: 2rem;
   font-weight: bold;
+  padding-left: 3rem;
+  padding-top: 0.5rem;
+}
+
+nav {
+  background-color: firebrick;
+  height: 2.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.shop {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.products {
+  border: 4px solid black;
+  display: flex;
+  flex-direction: column;
+}
+
+.products span {
+  background-color: black;
+}
+
+.products img {
+  height: 9rem;
 }
