@@ -4,9 +4,11 @@ html {
   color: white;
 }
 
+/*All page generic*/
 .container {
 }
 
+/*Top header styling*/
 header {
   background: black;
   display: flex;
@@ -26,6 +28,7 @@ header h3 {
   display: flex;
 }
 
+/*Main banner image styling*/
 .banner {
   width: 100%;
   height: 25rem;
@@ -57,6 +60,7 @@ header h3 {
   padding-top: 0.5rem;
 }
 
+/*Navigation strip styling*/
 nav {
   background-color: firebrick;
   height: 2.5rem;
@@ -72,6 +76,7 @@ nav a {
   justify-content: space-around;
 }
 
+/*Shop/product listing styling*/
 .shop {
   display: flex;
   align-items: center;
@@ -104,4 +109,37 @@ nav a {
   height: auto;
   margin-top: 77px;
   margin-bottom: 77px;
+}
+
+/*Contact us section styling*/
+.contactus {
+  position: relative;
+  top: 6rem;
+  display: flex;
+  max-width: 35%;
+  justify-content: space-between;
+}
+
+.information {
+}
+
+.information h3 {
+  background-color: black;
+  padding: 1rem 2rem;
+}
+
+.information span {
+  color: black;
+}
+
+/*Footer content*/
+footer {
+  position: relative;
+  top: 9rem;
+  background-color: black;
+  height: 5rem;
+}
+
+footer span {
+
 }
