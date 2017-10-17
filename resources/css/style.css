@@ -11,6 +11,7 @@ header {
   background: black;
   display: flex;
   align-items: center;
+  height: 3rem;
 }
 
 header img {
@@ -75,6 +76,8 @@ nav a {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: relative;
+  top: 3rem;
 }
 
 .products {
@@ -85,8 +88,17 @@ nav a {
 
 .products span {
   background-color: black;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  text-align: center;
 }
 
 .products img {
   height: 9rem;
+  width: 9rem;
+  margin: 4rem;
+}
+
+#glasses img {
+  height: 5.5rem;
 }
