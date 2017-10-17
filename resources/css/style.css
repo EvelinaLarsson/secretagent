@@ -116,11 +116,13 @@ nav a {
   position: relative;
   top: 6rem;
   display: flex;
-  max-width: 35%;
   justify-content: space-between;
 }
 
 .information {
+  display: flex;
+  flex-direction: column;
+  min-width: 35%;
 }
 
 .information h3 {
@@ -135,11 +137,13 @@ nav a {
 /*Footer content*/
 footer {
   position: relative;
-  top: 9rem;
+  top: 10rem;
+  display: flex;
   background-color: black;
-  height: 5rem;
+  height: 10rem;
 }
 
-footer span {
-
+footer h3 {
+  display: flex;
+  align-items: center;
 }
